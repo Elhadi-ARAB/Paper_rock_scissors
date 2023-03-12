@@ -10,13 +10,13 @@ function getComputerChoice() {
       score = 0
     }
   
-    else if (playerChoice === 'Pierre && computerChoice == Ciseaux') {
+    else if (playerChoice === 'Pierre' && computerChoice == 'Ciseaux') {
       score = 1
     }
     else if (playerChoice === 'Ciseaux' && computerChoice == 'Papier') {
       score = 1
     }
-    else if (playerChoice === 'Papier' && computerChoice == 'Ciseaux') {
+    else if (playerChoice === 'Ciseaux' && computerChoice == 'Papier') {
       score = 1
     }
   
